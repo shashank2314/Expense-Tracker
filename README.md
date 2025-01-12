@@ -1,4 +1,4 @@
-# Expense Tracker
+# Expense Tracker[Visit website](https://expense-tracker-kappa-neon.vercel.app/)
 
 ## Overview
 
@@ -55,7 +55,7 @@ Our app includes a fully functional **authentication and authorization** system 
      - **Access Token:** This token is used for making authenticated requests to the API.
      - **Refresh Token:** This token is used to obtain a new **access token** when the original one expires.
    - **Access Token** is stored in **localStorage** or **sessionStorage** in the browser (for front-end applications), and the **Refresh Token** is stored in **HTTP-only cookies** for security.
-
+![Login Page Screenshot](./website/2.png)
 3. **Token Storage:**
    - **Access Token:** This token typically has a short expiration time (e.g., 15 minutes to 1 hour). It is stored in **localStorage** or **sessionStorage** on the client-side and is sent with each request to authenticate API calls.
    - **Refresh Token:** This token is more persistent and is stored in **HTTP-only cookies**. It is used to obtain a new **access token** after it expires. HTTP-only cookies help mitigate risks of cross-site scripting (XSS) attacks.
@@ -160,5 +160,5 @@ By using this powerful tech stack, the app offers a fast, secure, and seamless e
 To clone the repository, run the following commands in your terminal:
 
 ```bash
-git clone https://github.com/yourusername/expense-tracker.git
-cd expense-tracker
+git clone https://github.com/shashank2314/Expense-Tracker
+
