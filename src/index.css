@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+.bg-hero {
+    background: linear-gradient(90deg, #dccaa0 45%, #ffffff 45%);
+}
+
+.bg-hero2 {
+    background: linear-gradient(90deg, #dccaa0 50%, #ffffff 50%);
+}
+
+.lable-style {
+    @apply text-[18px] text-gray-950 font-semibold pl-2 ;
+}
+
+.form-style {
+    @apply rounded-lg bg-gray-200 px-4 py-2 text-[16px] leading-[24px] text-gray-950 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-gray-400 w-full;
+}
+.form-div-style{
+    @apply w-full flex flex-col gap-2
+}
+.form-error{
+    @apply text-red-400 pl-2
+}
+
+@media (max-width: 768px) {
+    .bg-hero2 {
+        background: linear-gradient(90deg, #dccaa0 100%, #ffffff 0%);
+    }
+
+    .bg-hero3 {
+        background-color: white;
+    }
+}
